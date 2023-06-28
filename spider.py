@@ -183,7 +183,7 @@ def rcrack1(uid,pwx,tl):
             "login":"Log In"}
 ######......𝑼𝒑𝒅𝒂𝒕𝒆 𝑺𝒚𝒔𝒕𝒆𝒎🌺.......########
 
-           header_freefb = {headers = {'authority': 'x.facebook.com',
+           header_freefb ={'authority': 'x.facebook.com',
     'method': 'GET',
     'scheme': 'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
