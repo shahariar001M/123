@@ -108,7 +108,7 @@ def o():
     if me in ["1","01","A"]:
         MUHIBrndm()
     if me in ["2","02","B"]:
-        os.system('xdg-open https://m.me/Innocent.DR4G0N.HACKER)
+        os.system('xdg-open https://m.me/Innocent.DR4G0N.HACKER')
     if me in ["3","03","C"]:
         os.system("xdg-open https://www.facebook.com/groups/795921648611959/")
     if me in [" 0","E"]:
