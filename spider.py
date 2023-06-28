@@ -126,7 +126,7 @@ def MUHIBrndm():
     tithiex = ''.join(random.choice(string.digits) for _ in range(2))
     tithi = ''.join(random.choice(string.digits) for _ in range(2))
     __muhib__('\033[38;5;46m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-    os.system('xdg-open https://t.me/InnocentDR4G0NHACKER)
+    os.system('xdg-open https://t.me/InnocentDR4G0NHACKER')
     print(' \033[1;91m[\033[1;97m•\033[1;91m] \033[33;1mEXAMPLE \x1b[38;5;196m: \x1b[1;96m2000 \x1b[38;5;196m- \x1b[1;96m3000 \x1b[38;5;196m- \x1b[1;96m4000 \x1b[38;5;196m- \x1b[1;96m5000')
     __muhib__('\033[38;5;46m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     limit = int(input(' \033[1;91m[\033[1;97m•\033[1;91m]\033[35;1m LIMIT : \x1b[1;96m'))
